@@ -53,38 +53,16 @@ namespace Northwind_Console
                     }
                     else if (choice == "2")
                     {
+                        var db = new Northwind22BTNContext();
                         Category category = new Category();
-                        Console.WriteLine("Enter Category Name:");
-                        category.CategoryName = Console.ReadLine();
-                        Console.WriteLine("Enter the Category Description:");
-                        category.Description = Console.ReadLine();
-                        ValidationContext context = new ValidationContext(category, null, null);
-                        List<ValidationResult> results = new List<ValidationResult>();
 
-                        var isValid = Validator.TryValidateObject(category, context, results, true);
-                        if (isValid)
-                        {
-                            var db = new Northwind22BTNContext();
-                            // check for unique name
-                            if (db.Categories.Any(c => c.CategoryName == category.CategoryName))
-                            {
-                                // generate validation error
-                                isValid = false;
-                                results.Add(new ValidationResult("Name exists", new string[] { "CategoryName" }));
-                            }
-                            else
-                            {
-                                logger.Info("Validation passed");
-                                // TODO: save category to db
-                            }
-                        }
-                        if (!isValid)
-                        {
-                            foreach (var result in results)
-                            {
-                                logger.Error($"{result.MemberNames.First()} : {result.ErrorMessage}");
-                            }
-                        }
+                        Console.WriteLine("Category Name: ");
+                        category.CategoryName = Console.ReadLine();
+
+                        Console.WriteLine("Category Description: ");
+                        category.Description = Console.ReadLine();
+
+                        db.AddCategory(category);
                     }
                     else if (choice == "3")
                     {
@@ -128,7 +106,6 @@ namespace Northwind_Console
 
                         Console.WriteLine("Edit Category with Id: ");
                         category.CategoryId = Int32.Parse(Console.ReadLine());
-
                         Console.WriteLine("Enter new cat name: ");
                         category.CategoryName = Console.ReadLine();
 
@@ -186,6 +163,9 @@ namespace Northwind_Console
                     {
                         var db = new Northwind22BTNContext();
                         Product product = new Product();
+                        Console.WriteLine("Enter Product by ID: ");
+                        product.ProductId = Int32.Parse(Console.ReadLine());
+
                         Console.WriteLine("Enter New Product Name: ");
                         product.ProductName = Console.ReadLine();
 

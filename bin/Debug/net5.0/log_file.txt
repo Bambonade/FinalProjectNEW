@@ -70,3 +70,51 @@
 2022-12-08 23:05:12.8295|INFO|Northwind_Console.Program|Option 1 selected
 2022-12-08 23:05:16.6418|INFO|Northwind_Console.Program|Option q selected
 2022-12-08 23:05:16.6418|INFO|Northwind_Console.Program|Program ended
+2022-12-08 23:23:56.0350|INFO|Northwind_Console.Program|Program started
+2022-12-08 23:24:30.6491|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:24:50.0808|INFO|Northwind_Console.Program|Option 2 selected
+2022-12-08 23:25:17.7038|INFO|Northwind_Console.Program|Validation passed
+2022-12-08 23:25:19.6117|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:25:40.6351|INFO|Northwind_Console.Program|Option 3 selected
+2022-12-08 23:25:45.8970|INFO|Northwind_Console.Program|CategoryId 1 selected
+2022-12-08 23:25:47.8782|INFO|Northwind_Console.Program|Option q selected
+2022-12-08 23:25:47.8782|INFO|Northwind_Console.Program|Program ended
+2022-12-08 23:25:53.4788|INFO|Northwind_Console.Program|Program started
+2022-12-08 23:25:59.4845|INFO|Northwind_Console.Program|Option 2 selected
+2022-12-08 23:26:08.7366|INFO|Northwind_Console.Program|Validation passed
+2022-12-08 23:26:09.6513|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:26:20.4970|INFO|Northwind_Console.Program|Option 3 selected
+2022-12-08 23:27:51.6226|INFO|Northwind_Console.Program|CategoryId 1 selected
+2022-12-08 23:27:52.4153|INFO|Northwind_Console.Program|Option q selected
+2022-12-08 23:27:52.4153|INFO|Northwind_Console.Program|Program ended
+2022-12-08 23:33:04.4933|INFO|Northwind_Console.Program|Program started
+2022-12-08 23:33:05.7303|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:33:14.3344|INFO|Northwind_Console.Program|Option 2 selected
+2022-12-08 23:33:22.4134|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:33:46.3266|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:33:49.2890|INFO|Northwind_Console.Program|Option q selected
+2022-12-08 23:33:49.2890|INFO|Northwind_Console.Program|Program ended
+2022-12-08 23:34:11.9821|INFO|Northwind_Console.Program|Program started
+2022-12-08 23:34:17.8377|INFO|Northwind_Console.Program|Option 3 selected
+2022-12-08 23:34:22.3286|INFO|Northwind_Console.Program|CategoryId 9 selected
+2022-12-08 23:34:25.9726|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:34:27.4042|INFO|Northwind_Console.Program|Option q selected
+2022-12-08 23:34:27.4042|INFO|Northwind_Console.Program|Program ended
+2022-12-08 23:36:41.7905|INFO|Northwind_Console.Program|Program started
+2022-12-08 23:36:45.5740|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:37:27.9338|INFO|Northwind_Console.Program|Option 2 selected
+2022-12-08 23:37:44.1248|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:37:58.9551|INFO|Northwind_Console.Program|Option 3 selected
+2022-12-08 23:38:05.4240|INFO|Northwind_Console.Program|CategoryId 2 selected
+2022-12-08 23:38:19.7061|INFO|Northwind_Console.Program|Option 4 selected
+2022-12-08 23:40:08.6766|INFO|Northwind_Console.Program|Option 5 selected
+2022-12-08 23:40:53.2623|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:41:31.4090|INFO|Northwind_Console.Program|Option 6 selected
+2022-12-08 23:41:44.7966|INFO|Northwind_Console.Program|Option 7 selected
+2022-12-08 23:42:41.3677|INFO|Northwind_Console.Program|Option 6 selected
+2022-12-08 23:43:16.2142|INFO|Northwind_Console.Program|Option 8 selected
+2022-12-08 23:43:56.2567|ERROR|Northwind_Console.Program|Object reference not set to an instance of an object.
+2022-12-08 23:43:56.2567|INFO|Northwind_Console.Program|Program ended
+2022-12-08 23:44:43.8783|INFO|Northwind_Console.Program|Program started
+2022-12-08 23:44:45.3743|INFO|Northwind_Console.Program|Option 8 selected
+2022-12-08 23:45:16.5029|INFO|Northwind_Console.Program|Option 6 selected

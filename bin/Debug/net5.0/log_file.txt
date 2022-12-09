@@ -118,3 +118,10 @@
 2022-12-08 23:44:43.8783|INFO|Northwind_Console.Program|Program started
 2022-12-08 23:44:45.3743|INFO|Northwind_Console.Program|Option 8 selected
 2022-12-08 23:45:16.5029|INFO|Northwind_Console.Program|Option 6 selected
+2022-12-08 23:46:17.8830|INFO|Northwind_Console.Program|Option 9 selected
+2022-12-08 23:47:34.5753|INFO|Northwind_Console.Program|Option 10 selected
+2022-12-08 23:47:42.0485|INFO|Northwind_Console.Program|Option 6 selected
+2022-12-08 23:47:48.9720|INFO|Northwind_Console.Program|Option 11 selected
+2022-12-08 23:47:57.7987|INFO|Northwind_Console.Program|Option 1 selected
+2022-12-08 23:48:13.7834|INFO|Northwind_Console.Program|Option q selected
+2022-12-08 23:48:13.7834|INFO|Northwind_Console.Program|Program ended

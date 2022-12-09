@@ -31,8 +31,8 @@ namespace Northwind_Console
                     Console.WriteLine("7) Add Product");  //C DONE
                     Console.WriteLine("8) Edit Product"); //C DONE
                     Console.WriteLine("9) Search Product"); //C DONE
-                    Console.WriteLine("10) Delete Record from Category"); //A DONE
-                    Console.WriteLine("11) Delete Record from Product"); //A DONE
+                    Console.WriteLine("10) Delete Record from Product"); //A DONE
+                    Console.WriteLine("11) Delete Record from Category"); //A DONE
                     Console.WriteLine("\"q\" to quit");
                     choice = Console.ReadLine();
                     Console.Clear();
